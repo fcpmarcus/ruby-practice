@@ -71,7 +71,9 @@ number.include { |x| x > 5}
 
 
 
+numbers = [0..10]
 
+number.include { |x| x < 5}
 
 
 
@@ -82,4 +84,5 @@ number.include { |x| x > 5}
 # * Create an array of colors: red, orange, yellow,green,violet,indigo
 # * Using a regex search the array to see which entries contain 'o'
 
+colors = [red, orange, yellow, green, violet, indigo]
 
