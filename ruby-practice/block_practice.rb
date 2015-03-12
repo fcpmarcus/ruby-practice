@@ -4,7 +4,7 @@
 #**TODO ENTER CODE**
 # * Output all the methods of the Enumerable class to the console
 
-
+	Enumerable.methods
 
 
 
@@ -15,8 +15,11 @@
 #   This means that the class you create...say Person... will respond to Person.each.
 # * use a normal each loop to iterate over the class and output the names to the console.
 
+class Person
 
-
+	def names
+		@person = person.name
+	end
 
 
 
@@ -53,9 +56,9 @@
 # * Create an array of numbers 1-10
 # * Search an array to find all matches for numbers greater than 5
 
+numbers = [0..10]
 
-
-
+number.include { |x| x > 5}
 
 
 

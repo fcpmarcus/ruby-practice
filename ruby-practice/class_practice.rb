@@ -1,30 +1,20 @@
 ##Create an Empty class named 'Person'
 
-
-
-
-
-
-
+Class Person
 
 
 ##Define three properties on that class 'name','age','birthdate'
 
+Class Person
 
+def name
+end
 
+def age
+end
 
-
-
-
-
-
-
-
-
-
-
-
-
+def birthdate
+end
 
 
 
@@ -32,13 +22,19 @@
 ##Define 'methods' that allow you to access and set all three of those properties, Do not use attribute accessor
 =begin
 
+Class Person
 
+def name
+  @name
+end
 
+def age
+  @age
+end
 
-
-
-
-
+def birthdate
+  @birthdate
+end
 
 
 =end
@@ -48,11 +44,7 @@
 ##Explain what calling Person.new does
 =begin
 
-
-
-
-
-
+Person.new creates an object Person
 
 
 =end
@@ -63,12 +55,7 @@
 ##Create an initializer method that allows you do Person.new 'Amy Smith' , which initializes the  Person's name property
 
 
-
-
-
-
-
-
+@name = User.new(params[:name])
 
 
 
@@ -76,7 +63,7 @@
 
 
 
-
+  console.log(name)
 
 
 
@@ -89,7 +76,7 @@
 
 
 
-
+Self is the object that whatever the ruby program is doing to at the moment.
 
 
 
@@ -102,7 +89,7 @@
 ##Explain what object instantiation means:
 =begin
 
-
+Object instantiation means the process of creating the "instance" of that object, basically creation of tha object.
 
 
 
@@ -138,7 +125,8 @@ class PersonC
 end
 
 =begin
-
+instance = @name
+local = name
 
 
 =end
@@ -149,7 +137,7 @@ end
 
 =begin
 
-
+a method is an expression that returns some sort of value
 
 
 
@@ -177,7 +165,9 @@ end
 =begin
 
 
+we are calling name from the PersonB class and allowe to be used within that class.
 
+The instance method say_name only works wihtin the instance of that method
 
 
 
@@ -210,7 +200,7 @@ person.say_name_again
 =begin
 
 
-
+no, they should be defined to an object within each method.
 
 
 
@@ -224,7 +214,7 @@ person.say_name_again
 
 =begin
 
-
+the method should return a true or false value
 
 
 
@@ -239,7 +229,7 @@ person.say_name_again
 
 =begin
 
-
+! means that the instace of that method can be modified
 
 
 
@@ -261,7 +251,9 @@ end
 
 =begin
 
+* means splat. this would list out all the parameters associated with taht method.
 
+* can be used to split up an array into individual parameters to a function.
 
 
 
